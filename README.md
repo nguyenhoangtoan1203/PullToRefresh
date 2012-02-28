@@ -25,15 +25,13 @@ and [Alex Zielenski's ScrollToRefresh](https://github.com/alexzielenski/ScrollTo
 	@property (weak) IBOutlet PullToRefreshScrollView *ptrScrollView;
 	```
 5. Set the delegate:
-	```
-	- (void)awakeFromNib {
+	```- (void)awakeFromNib {
 		NSLog(@"awake from nib");
 		[_ptrScrollView setDelegate:self];
 	}
 	```
 6. Add the delegate method:
-	```
-	- (void)ptrScrollViewDidTriggerRefresh:(id)sender {
+	```- (void)ptrScrollViewDidTriggerRefresh:(id)sender {
 		NSLog(@"This is called by the PullToRefresh delegate protocol");
 	}
 	```
