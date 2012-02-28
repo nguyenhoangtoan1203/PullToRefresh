@@ -13,7 +13,7 @@
 
 @synthesize ptrScrollView = _ptrScrollView;
 
--(void)awakeFromNib {
+- (void)awakeFromNib {
     NSLog(@"awake from nib");
     [_ptrScrollView setDelegate:self];
 }
