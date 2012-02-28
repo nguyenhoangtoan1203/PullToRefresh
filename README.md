@@ -9,4 +9,4 @@ and [Alex Zielenski's ScrollToRefresh](https://github.com/alexzielenski/ScrollTo
 ## Key Features
 * Elastic Scroll
 * Added optional delegate protocol method: ptrScrollViewDidTriggerRefresh:(id)sender
-** This method gets called when the user scrolls beyond the set bounds.
+	- This method gets called when the user scrolls beyond the set bounds.
